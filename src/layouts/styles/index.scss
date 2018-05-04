@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Rajdhani:100,200,300,400,500,600,700,800,900');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css');
+
+@import "./base/variables";
+
+@import "./base/animations";
+@import "./base/grid";
+@import "./base/settings";
+@import "./base/typography";
+
+
+@import "./components/header";
+@import "./components/section-about";
+@import "./components/section-hero";
+@import "./components/section-technologies";
+
+
+

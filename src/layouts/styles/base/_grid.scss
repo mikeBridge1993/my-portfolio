@@ -1,0 +1,9 @@
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+div[class*="col-5"] {
+  padding-left: 6rem;
+}

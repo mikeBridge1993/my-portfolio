@@ -1,0 +1,42 @@
+.section-technologies {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: $header-color;
+  padding: 13rem 0;
+
+
+  .skills {
+    width: 100%;
+    position: relative;
+    perspective: 100rem;
+
+    &__gallery {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+    }
+
+    &__box {
+      height: auto;
+      line-height: 0;
+      display: inline-block;
+      
+      &__icon {
+        display: inline-block;
+        font-size: 8rem;
+        color: grey;  
+        transition: all .6s;
+      }
+
+      &__icon:hover {
+        transform: translateY(-1rem);  
+        color: white;              
+       }
+    }
+  }
+}

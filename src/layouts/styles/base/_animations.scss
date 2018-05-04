@@ -1,0 +1,48 @@
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(5rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+      visibility: visible;  
+  }
+}
+
+@keyframes moveInTop{
+  0% {
+      opacity: 0;
+      transform: translateY(-5rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes moveInChevron{
+  0% {
+      opacity: 0;
+      transform: translateY(5rem) translate(-50%);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0) translate(-50%);
+      visibility: visible;
+  }
+}
